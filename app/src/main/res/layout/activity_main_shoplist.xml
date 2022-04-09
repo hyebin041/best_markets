@@ -44,19 +44,18 @@
             />
     </FrameLayout>
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tab_layout"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menu_bottom_navigation"
         android:layout_width="match_parent"
-        android:background="@color/white"
         android:layout_height="wrap_content"
-        app:tabIndicatorColor="@color/black"
-        app:tabIndicatorFullWidth="false"
-        app:tabIndicatorHeight="4dp"
-        app:tabSelectedTextColor="@color/black" />
+        android:layout_gravity="bottom"
+        app:itemIconTint="@drawable/menu_item_color"
+        app:itemTextColor="@drawable/menu_item_color"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/main_menu_bottom"/>
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/pager"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
+
+
+
 </LinearLayout>
