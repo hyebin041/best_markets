@@ -6,4 +6,34 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity_SHOPLIST">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="@drawable/shoplist_custom_intro_textview"
+
+        android:width="350dp"
+        android:height="150dp"
+        android:layout_marginTop="200dp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
