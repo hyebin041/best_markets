@@ -3,6 +3,6 @@
     <shape android:shape="rectangle">
         <storke android:width="30dp"
             android:color="@color/black"/>
-<!--        <solid android:color="@color/white"/>-->
+        <solid android:color="@color/white"/>
     </shape>
 </layer-list>

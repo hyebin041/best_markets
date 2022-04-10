@@ -8,54 +8,9 @@
     android:orientation="vertical"
     android:background="@color/white">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="프래그먼트 menu1"
-        android:textSize="30sp"
-        android:textStyle="bold"
 
-        android:layout_marginTop="20dp"
-        android:layout_gravity="top|center"
-        android:layout_marginBottom="20dp"
-
-        android:drawableEnd="@drawable/layer_list"
-        android:drawablePadding="10dp"
-
-        android:background="@drawable/fragments_teduri"
-
-         />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="프래그먼트 menu2"
-        android:textSize="30sp"
-        android:textStyle="bold"
-
-        android:layout_marginTop="20dp"
-        android:layout_gravity="top|center"
-        android:layout_marginBottom="20dp"
-
-        android:drawableEnd="@drawable/layer_list"
-        android:drawablePadding="10dp"
-
-         />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="프래그먼트 menu3"
-        android:textSize="30sp"
-        android:textStyle="bold"
-
-        android:layout_marginTop="20dp"
-        android:layout_gravity="top|center"
-        android:layout_marginBottom="20dp"
-
-        android:drawableEnd="@drawable/layer_list"
-        android:drawablePadding="10dp"
-
-         />
-
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"/>
 </LinearLayout>
