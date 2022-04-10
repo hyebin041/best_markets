@@ -10,6 +10,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="265dp">
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
@@ -20,11 +21,12 @@
             android:scaleType="fitXY"
             />
 
+
         <TextView
             android:id="@+id/textView"
             android:layout_width="350dp"
             android:layout_height="130dp"
-            android:text="TextView"
+            android:text="짜장면 집 \n ***** \n 최근리뷰 62 | 최근 사장님 댓글 0 \n "
             android:background="@drawable/shoplist_custom_intro_textview"
 
             android:layout_gravity="top|center"
@@ -32,9 +34,18 @@
             android:layout_marginBottom="15dp"
 
             android:elevation="10dp"
-
             />
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"/>
+
+
     </FrameLayout>
+
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -50,6 +61,7 @@
         android:layout_weight="10"
         tools:layout_editor_absoluteX="203dp"
         tools:layout_editor_absoluteY="281dp">
+
     </FrameLayout>
 
 

@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.RatingBar;
 
 import com.example.best_markets.shoplist_fragments.InformationFragment;
 import com.example.best_markets.shoplist_fragments.MenuFragment;
@@ -18,6 +19,9 @@ public class Shoplist_Activity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shoplist2);
+
+        RatingBar ratingBar = findViewById(R.id.ratingBar1);
+        ratingBar.bringToFront();
 
 
         // 프래그먼트 객체 선언
