@@ -1,4 +1,4 @@
-package com.example.best_markets;
+package com.example.best_markets.shoplist_fragments;
 
 import android.os.Bundle;
 
@@ -12,6 +12,8 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.example.best_markets.R;
 
 
 public class MenuFragment extends Fragment {

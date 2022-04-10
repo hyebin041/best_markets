@@ -7,6 +7,9 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.best_markets.shoplist_fragments.InformationFragment;
+import com.example.best_markets.shoplist_fragments.MenuFragment;
+import com.example.best_markets.shoplist_fragments.ReviewFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Shoplist_Activity2 extends AppCompatActivity {
