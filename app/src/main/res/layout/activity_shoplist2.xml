@@ -52,7 +52,6 @@
                 android:textSize="16dp"
                 />
 
-
             <RatingBar
                 android:id="@+id/ratingBar1"
                 android:layout_width="wrap_content"
@@ -63,7 +62,6 @@
                 android:isIndicator="true"
                 android:rating="3.5"
                 /> <!--사용자가 클릭하지 못하도록-->
-
 
         </FrameLayout>
 
@@ -85,6 +83,5 @@
         tools:layout_editor_absoluteX="203dp"
         tools:layout_editor_absoluteY="281dp">
     </FrameLayout>
-
 
 </LinearLayout>
