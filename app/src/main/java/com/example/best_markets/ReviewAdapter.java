@@ -17,11 +17,16 @@ public class ReviewAdapter extends BaseAdapter {
     private List<Review> items=new ArrayList<>();
 
     public ReviewAdapter() {
-        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
-        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
-        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
-        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
-        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
+//        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
+//        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
+//        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
+//        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
+//        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
+        items.add(new Review("짜장면조아","12.24",R.drawable.img,"사랑해요 짜장면"));
+        items.add(new Review("짬뽕사랑","12.24",R.drawable.img,"사랑해요 짜장면"));
+        items.add(new Review("사랑해여","12.24",R.drawable.img,"사랑해요 짜장면"));
+        items.add(new Review("삼시육끼","12.24",R.drawable.img,"사랑해요 짜장면"));
+        items.add(new Review("미슐랭입맛","12.24",R.drawable.img,"사랑해요 짜장면"));
     }
 
 
@@ -49,22 +54,37 @@ public class ReviewAdapter extends BaseAdapter {
         //레이아웃 인플레이터로 인플레이터 객체 접근
         LayoutInflater inflater=LayoutInflater.from(parent.getContext());
         //메모리에 아이템 하나 인플레이팅
-        View itemView=inflater.inflate(R.layout.row_item,parent,false);
+        View itemView=inflater.inflate(R.layout.shoplist_review_item,parent,false);
 
         //뷰 찾기
-        TextView tv=itemView.findViewById(R.id.tv_title);
-        ImageView imageView=itemView.findViewById(R.id.iv_img_resource);
-
-        TextView tv1=itemView.findViewById(R.id.text_sulmom);
+//        TextView tv = itemView.findViewById(R.id.review_id);
+//        //RatingBar rb = itemView.findViewById(R.id.review_rating);
+//        TextView tv1 = itemView.findViewById(R.id.review_day);
+//        ImageView imageView = itemView.findViewById(R.id.review_image);
+//        TextView tv2 = itemView.findViewById(R.id.review_text);
+        TextView tv = itemView.findViewById(R.id.review_id);
+        //RatingBar rb = itemView.findViewById(R.id.review_rating);
+        TextView tv1 = itemView.findViewById(R.id.review_day);
+        ImageView imageView = itemView.findViewById(R.id.review_image);
+        TextView tv2 = itemView.findViewById(R.id.review_text);
 
         //뷰 교체
-        String title=((Movie)getItem(position)).getTitle();
-        int imgResource=((Movie)getItem(position)).getImgResource();
-        String sulmom = ((Movie)getItem(position)).getText_1();
+        String review_id = ((Review)getItem(position)).getId();
+        //RatingBar review_rating = ((Review)getItem(position)).getRating();
+        String review_day = ((Review)getItem(position)).getDay();
+        int review_img = ((Review)getItem(position)).getImg();
+        String review_text = ((Review)getItem(position)).getText();
 
-        tv.setText(title);
-        tv1.setText(sulmom);
-        imageView.setImageResource(imgResource);
+        tv.setText(review_id);
+        tv1.setText(review_day);
+
+        imageView.setImageResource(review_img);
+
+        tv2.setText(review_text);
+
+        //rb.setNumStars(review_rating);
+        //rb.setRating(review_rating);
+
 
         return itemView;
     }

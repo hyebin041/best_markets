@@ -19,13 +19,14 @@ public class ReviewFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         //return inflater.inflate(R.layout.fragment_review, container, false);
-        View view = inflater.inflate(R.layout.fragment_menu, null);
+        View view = inflater.inflate(R.layout.fragment_review, container, false);
 
-        ReviewAdapter adapter = new ReviewAdapter() ;
+        ReviewAdapter adapter = new ReviewAdapter();
 
         ListView listview = (ListView) view.findViewById(R.id.listView_custom1);
         listview.setAdapter(adapter);
 
         return view;
     }
+
 }
