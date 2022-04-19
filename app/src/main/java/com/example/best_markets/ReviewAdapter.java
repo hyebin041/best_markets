@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -22,11 +23,18 @@ public class ReviewAdapter extends BaseAdapter {
 //        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
 //        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
 //        items.add(new Review("짜장면",5,"12.24",R.drawable.img,"사랑해요 짜장면"));
-        items.add(new Review("짜장면조아","12.24",R.drawable.img,"사랑해요 짜장면"));
-        items.add(new Review("짬뽕사랑","12.24",R.drawable.img,"사랑해요 짜장면"));
-        items.add(new Review("사랑해여","12.24",R.drawable.img,"사랑해요 짜장면"));
-        items.add(new Review("삼시육끼","12.24",R.drawable.img,"사랑해요 짜장면"));
-        items.add(new Review("미슐랭입맛","12.24",R.drawable.img,"사랑해요 짜장면"));
+
+//        items.add(new Review("  "+"짜장면조아"+"  ","12.24",R.drawable.img,"사랑해요 짜장면 ㅠㅠ 너무 맛있어서 죽을 거 같아여 ㅠ퓨ㅠㅠ"));
+//        items.add(new Review("  "+"짬뽕사랑"+"  ","12.24",R.drawable.img,"사랑해요 짜장면"));
+//        items.add(new Review("  "+"사랑해여"+"  ","12.24",R.drawable.img,"사랑해요 짜장면"));
+//        items.add(new Review("  "+"삼시육끼"+"  ","12.24",R.drawable.img,"사랑해요 짜장면"));
+//        items.add(new Review("  "+"미슐랭입맛"+"  ","12.24",R.drawable.img,"사랑해요 짜장면"));
+
+        items.add(new Review("  "+"짜장면조아"+"  ",4,"12.24",R.drawable.img,"사랑해요 짜장면 ㅠㅠ 너무 맛있어서 죽을 거 같아여 ㅠ퓨ㅠㅠ 짜장면"));
+        items.add(new Review("  "+"짬뽕사랑"+"  ",4,"12.24",R.drawable.img,"사랑해요 짜장면"));
+        items.add(new Review("  "+"사랑해여"+"  ",4,"12.24",R.drawable.img,"사랑해요 짜장면"));
+        items.add(new Review("  "+"삼시육끼"+"  ",4,"12.24",R.drawable.img,"사랑해요 짜장면"));
+        items.add(new Review("  "+"미슐랭입맛"+"  ",4,"12.24",R.drawable.img,"사랑해요 짜장면"));
     }
 
 
@@ -63,14 +71,16 @@ public class ReviewAdapter extends BaseAdapter {
 //        ImageView imageView = itemView.findViewById(R.id.review_image);
 //        TextView tv2 = itemView.findViewById(R.id.review_text);
         TextView tv = itemView.findViewById(R.id.review_id);
-        //RatingBar rb = itemView.findViewById(R.id.review_rating);
+        RatingBar rb = itemView.findViewById(R.id.review_rating);
         TextView tv1 = itemView.findViewById(R.id.review_day);
         ImageView imageView = itemView.findViewById(R.id.review_image);
         TextView tv2 = itemView.findViewById(R.id.review_text);
 
         //뷰 교체
         String review_id = ((Review)getItem(position)).getId();
-        //RatingBar review_rating = ((Review)getItem(position)).getRating();
+
+        int review_rating = ((Review)getItem(position)).getRating();
+
         String review_day = ((Review)getItem(position)).getDay();
         int review_img = ((Review)getItem(position)).getImg();
         String review_text = ((Review)getItem(position)).getText();
@@ -81,6 +91,8 @@ public class ReviewAdapter extends BaseAdapter {
         imageView.setImageResource(review_img);
 
         tv2.setText(review_text);
+
+        rb.setRating(review_rating);
 
         //rb.setNumStars(review_rating);
         //rb.setRating(review_rating);

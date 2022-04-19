@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 
 public class Review {
     private String id;
-    //private RatingBar rating;
+    private int rating;
     private String day;
     private int img;
     private String text;

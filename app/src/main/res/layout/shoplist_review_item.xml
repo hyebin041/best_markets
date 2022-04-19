@@ -10,9 +10,10 @@
         android:id="@+id/review_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="닉네임 룸룸"
+        android:text="  닉네임 룸룸  "
         android:layout_marginTop="5dp"
-        android:layout_marginLeft="5dp"></TextView>
+        android:layout_marginLeft="2dp"
+        android:background="@drawable/textview_teduri"></TextView>
 
     <LinearLayout
         android:layout_width="wrap_content"
