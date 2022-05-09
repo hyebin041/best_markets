@@ -20,8 +20,13 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap googleMap;
+
+    private String test;
+    private URLConnector task;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -36,6 +41,24 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 startActivity(intent1);
             }
         });
+
+
+        test = "192.168.219.103";
+        task = new URLConnector(test);
+
+        task.start();
+
+        try{
+            task.join();
+            System.out.println("waiting... for result");
+        }
+        catch(InterruptedException e){
+
+        }
+
+        String result = task.getResult();
+
+        System.out.println(result);
 
 
 
