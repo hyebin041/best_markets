@@ -4,9 +4,9 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.ListAdapter;
-import android.widget.ListView;
 import android.widget.RatingBar;
 import android.widget.SimpleAdapter;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -39,7 +39,8 @@ public class Shoplist_Activity2 extends AppCompatActivity {
 
     ArrayList<HashMap<String, String>> marketList;
 
-    ListView list;
+    TextView shop_name;
+    TextView shop_intro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -112,7 +113,9 @@ public class Shoplist_Activity2 extends AppCompatActivity {
               new int[]{R.id.shop_name, R.id.shop_intro}
             );
 
-            list.setAdapter(adapter);
+            shop_name.setText(TAG_MarketName);
+            shop_intro.setText(TAG_MarketIntro);
+
 
         } catch(JSONException e){
             e.printStackTrace();
