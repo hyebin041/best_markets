@@ -28,7 +28,7 @@ public class ReviewAdapter extends BaseAdapter {
 //        items.add(new Review("  "+"짬뽕사랑"+"  ","12.24",R.drawable.img,"사랑해요 짜장면"));
 //        items.add(new Review("  "+"사랑해여"+"  ","12.24",R.drawable.img,"사랑해요 짜장면"));
 //        items.add(new Review("  "+"삼시육끼"+"  ","12.24",R.drawable.img,"사랑해요 짜장면"));
-//        items.add(new Review("  "+"미슐랭입맛"+"  ","12.24",R.drawable.img,"사랑해요 짜장면"));
+//        items.add(new Review("  "+"미슐랭입맛"+"  ","12.24",R.drawable.img,"사랑해요 짜장면"))
 
         items.add(new Review("  "+"짜장면조아"+"  ",4,"12.24",R.drawable.img,"사랑해요 짜장면 ㅠㅠ 너무 맛있어서 죽을 거 같아여 ㅠ퓨ㅠㅠ 짜장면"));
         items.add(new Review("  "+"짬뽕사랑"+"  ",4,"12.24",R.drawable.img,"사랑해요 짜장면"));
