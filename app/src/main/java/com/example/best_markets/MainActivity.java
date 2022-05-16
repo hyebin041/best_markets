@@ -79,6 +79,24 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         googleMap.addMarker(markerOptions1);
         googleMap.addMarker(markerOptions2);
 
+        googleMap.setOnInfoWindowClickListener(new GoogleMap.OnInfoWindowClickListener() {
+            @Override
+            public void onInfoWindowClick(@NonNull Marker marker) {
+                Intent intent1 = new Intent(getApplicationContext(), Shoplist_Activity2.class);
+                startActivity(intent1);
+            }
+        });
+
+        /*googleMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+            @Override
+            public boolean onMarkerClick(@NonNull Marker marker) {
+                MarkerOptions markerOptions = new MarkerOptions().position(latLng).title("광장시장").snippet("핫한 시장 음식의 집합소");
+                Intent intent1 = new Intent(getApplicationContext(), Shoplist_Activity2.class);
+                startActivity(intent1);
+                return false;
+            }
+        }); */
+
     }
 }
 
