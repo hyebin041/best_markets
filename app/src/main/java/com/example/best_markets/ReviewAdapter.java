@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
-
 public class ReviewAdapter extends BaseAdapter {
     private static final String TAG = "ReviewAdapter";
 
