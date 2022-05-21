@@ -19,4 +19,13 @@
             @mipmap/ic_launcher
         </item>
     </style>
+
+    <style name="Theme.Best_markets.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Best_markets.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Best_markets.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

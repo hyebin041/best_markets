@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         mypage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1 = new Intent(getApplicationContext(), Shoplist_Activity2.class);
+                Intent intent1 = new Intent(getApplicationContext(), MarketActivity.class); /////////////////////////////////
                 startActivity(intent1);
             }
         });

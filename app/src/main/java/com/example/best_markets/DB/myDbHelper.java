@@ -1,4 +1,4 @@
-package com.example.best_markets;
+package com.example.best_markets.DB;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
