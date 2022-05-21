@@ -1,11 +1,13 @@
 package com.example.best_markets;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -86,6 +88,30 @@ public class MarketActivity extends AppCompatActivity {
         }
         c.close();
         db1.close();
+
+        market_name.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(getApplicationContext(), Shoplist_Activity2.class); /////////////////////////////////
+                startActivity(intent1);
+            }
+        });
+
+        market_name1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(getApplicationContext(), Shoplist_Activity2.class); /////////////////////////////////
+                startActivity(intent1);
+            }
+        });
+
+        market_name2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(getApplicationContext(), Shoplist_Activity2.class); /////////////////////////////////
+                startActivity(intent1);
+            }
+        });
 
     }
 }

@@ -22,7 +22,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MyPage"
+        android:text="market list"
         map:layout_constraintEnd_toEndOf="@+id/map"
         map:layout_constraintTop_toTopOf="@+id/map" />
 

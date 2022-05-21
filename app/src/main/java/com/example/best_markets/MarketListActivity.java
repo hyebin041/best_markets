@@ -22,6 +22,11 @@ public class MarketListActivity extends AppCompatActivity {
 
 
         button1 = (Button) findViewById(R.id.button1);
+//        Button button2 = findViewById(R.id.button2);
+//        Button button3 = findViewById(R.id.button3);
+//        Button button4 = findViewById(R.id.button4);
+//        Button button5 = findViewById(R.id.button5);
+
 
         startBtn = findViewById(R.id.startBtn);     //슬라이드 버튼
         stopBtn = findViewById(R.id.stopBtn);
@@ -43,13 +48,47 @@ public class MarketListActivity extends AppCompatActivity {
 
             }
         });
+
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), Shoplist_Activity2.class);
                 startActivity(intent);
             }
         });
+
+//        button2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(getApplicationContext(), Shoplist_Activity2.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        button3.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(getApplicationContext(), Shoplist_Activity2.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        button4.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(getApplicationContext(), Shoplist_Activity2.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        button5.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(getApplicationContext(), Shoplist_Activity2.class);
+//                startActivity(intent);
+//            }
+//        });
+
 
 
 
