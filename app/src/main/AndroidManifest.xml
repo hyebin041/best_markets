@@ -32,6 +32,54 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Best_markets">
         <activity
+            android:name=".shoplist_gorocae"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_maknae"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_naegohang"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_heelockgalchi"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_dackjinme"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_eunho"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_wangsung"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_obok"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_uelock"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_hongduggae"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_monyeo"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_buchon"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_jinokhalmae"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_wonjonudecheesekimbop"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_wonjosunheenae"
+            android:exported="false" />
+        <activity
+            android:name=".shoplist_gangganae"
+            android:exported="false" />
+        <activity
             android:name=".Shoplist_Activity2"
             android:exported="true" />
         <activity
@@ -55,10 +103,10 @@
         </activity>
         <activity
             android:name=".MarketListActivity"
-            android:exported="false"></activity>
-
-        <activity android:name=".MarketActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
+        <activity
+            android:name=".MarketActivity"
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
