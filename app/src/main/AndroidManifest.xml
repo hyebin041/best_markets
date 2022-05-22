@@ -38,9 +38,6 @@
             android:name=".shoplist_maknae"
             android:exported="false" />
         <activity
-            android:name=".shoplist_naegohang"
-            android:exported="false" />
-        <activity
             android:name=".shoplist_heelockgalchi"
             android:exported="false" />
         <activity

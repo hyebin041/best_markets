@@ -1,12 +1,11 @@
 package com.example.best_markets;
 
+import android.os.Bundle;
+import android.view.MenuItem;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-
-import android.os.Bundle;
-import android.view.MenuItem;
-import android.widget.RatingBar;
 
 import com.example.best_markets.shoplist_fragments.InformationFragment;
 import com.example.best_markets.shoplist_fragments.MenuFragment;
@@ -19,12 +18,10 @@ public class shoplist_buchon extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shoplist_buchon);
 
-        RatingBar ratingBar = findViewById(R.id.ratingBar1);
-        ratingBar.bringToFront();
 
         // 프래그먼트 객체 선언
-        Fragment fragment_menu_buchon = new MenuFragment_buchon();
-        Fragment fragment_inform_buchon = new InformationFragment_buchon();
+        Fragment fragment_menu = new MenuFragment("bu");
+        Fragment fragment_inform = new InformationFragment("bu");
 
 
         //제일 처음 띄워줄 뷰를 세팅해줍니다. commit();까지 해줘야 합니다.
@@ -39,11 +36,11 @@ public class shoplist_buchon extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
                 switch (item.getItemId()) {
-                    case R.id.fragment_menu_buchon:
+                    case R.id.frame_layout:
                         // replace(프레그먼트를 띄워줄 frameLayout, 교체할 fragment 객체)
                         getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, fragment_menu).commitAllowingStateLoss();
                         return true;
-                    case R.id.fragment_information_buchon:
+                    case R.id.fragment_information:
                         getSupportFragmentManager().beginTransaction().replace(R.id.frame_layout, fragment_inform).commitAllowingStateLoss();
                         return true;
                     default:

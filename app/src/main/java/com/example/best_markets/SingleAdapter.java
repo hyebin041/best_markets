@@ -31,6 +31,170 @@ public class SingleAdapter extends BaseAdapter {
         items.add(new Movie("곱빼기","4000원",R.drawable.img));
     }
 
+    public SingleAdapter(String i) {
+        if(i == "bu"){
+            items.add(new Movie("육회","17000원",R.drawable.img));
+            items.add(new Movie("육회낙지탕탕이","30000원",R.drawable.img));
+            items.add(new Movie("간.천엽","15000원",R.drawable.img));
+            items.add(new Movie("육회물회","30000원",R.drawable.img));
+            items.add(new Movie("육사시미","4000원",R.drawable.img));
+            items.add(new Movie("육회비빔밥","8000원",R.drawable.img));
+            items.add(new Movie("육회비빔밥(특)","12000원",R.drawable.img));
+            items.add(new Movie("산낙지탕탕이","15000원 ",R.drawable.img));
+        }
+        if(i == "dac"){
+            items.add(new Movie("닭곰탕","9000원",R.drawable.img));
+            items.add(new Movie("고기백반","10000원",R.drawable.img));
+            items.add(new Movie("닭고기","9000원",R.drawable.img));
+            items.add(new Movie("통닭","20000원",R.drawable.img));
+            items.add(new Movie("소주","4000원",R.drawable.img));
+            items.add(new Movie("맥주","4000원",R.drawable.img));
+            items.add(new Movie("청하","5000원",R.drawable.img));
+            items.add(new Movie("백세주","7000원",R.drawable.img));
+
+        }
+        if(i == "eunho"){
+            items.add(new Movie("꼬리토막","33,000원",R.drawable.img));
+            items.add(new Movie("꼬리곰탕","28,000원",R.drawable.img));
+            items.add(new Movie("도가니탕","19,000원",R.drawable.img));
+            items.add(new Movie("양지탕","15,000원",R.drawable.img));
+            items.add(new Movie("소머리국밥 ","12,000원",R.drawable.img));
+            items.add(new Movie("설렁탕","11,000원",R.drawable.img));
+            items.add(new Movie("꼬리찜","88,000원",R.drawable.img));
+            items.add(new Movie("모둠수육","75,000원",R.drawable.img));
+
+        }
+        //====================================================
+        if(i == "gangganae"){
+            items.add(new Movie("무떡볶이","4500원",R.drawable.img));
+            items.add(new Movie("튀김1인분(4개)","4500원",R.drawable.img));
+            items.add(new Movie("튀김 모듬 (10개)","10000원",R.drawable.img));
+            items.add(new Movie("떡볶이 + 튀김","5000원",R.drawable.img));
+            items.add(new Movie("소떡소떡 ","3000원",R.drawable.img));
+            items.add(new Movie("순대꼬치","2000원",R.drawable.img));
+
+        }
+        if(i == "gorocae"){
+            items.add(new Movie("야채","1000원",R.drawable.img));
+            items.add(new Movie("단팥","700원",R.drawable.img));
+            items.add(new Movie("고구마카레","700원",R.drawable.img));
+            items.add(new Movie("감자","700원",R.drawable.img));
+            items.add(new Movie("참치 ","700원",R.drawable.img));
+            items.add(new Movie("찹쌀꽈배기 + 핫도그","1000원",R.drawable.img));
+            items.add(new Movie("옛날꽈배기+순찹쌀도너츠","500원 / 1000원",R.drawable.img));
+            items.add(new Movie("야채샐러드빵","2500원",R.drawable.img));
+
+        }
+        if(i == "heelockgalchi"){
+            items.add(new Movie("갈치조림","10,000원",R.drawable.img));
+            items.add(new Movie("고등어조림","10,000원",R.drawable.img));
+            items.add(new Movie("모듬생선구이","10,000원",R.drawable.img));
+            items.add(new Movie("고등어구이","9000원",R.drawable.img));
+            items.add(new Movie("코다리 양념구이","9000원",R.drawable.img));
+            items.add(new Movie("삼치구이","9000원",R.drawable.img));
+            items.add(new Movie("청국장","7000원",R.drawable.img));
+            items.add(new Movie("계란찜","2000원",R.drawable.img));
+
+        }
+        if(i == "hongduggae"){
+            items.add(new Movie("손칼국수","4500원",R.drawable.img));
+            items.add(new Movie("손수제비","4500원",R.drawable.img));
+            items.add(new Movie("들깨손수제비","5500원",R.drawable.img));
+            items.add(new Movie("옛날손짜장","5000원",R.drawable.img));
+            items.add(new Movie("들깨손칼국수 ","5500원",R.drawable.img));
+            items.add(new Movie("여름/콩국수","8000원",R.drawable.img));
+            items.add(new Movie("냉국수","7000원",R.drawable.img));
+            items.add(new Movie("비빔국수","7000원",R.drawable.img));
+
+        }
+        if(i == "jinokhalmae"){
+            items.add(new Movie("닭한마리","25,000원",R.drawable.img));
+            items.add(new Movie("닭도리탕","30,000원",R.drawable.img));
+            items.add(new Movie("떡사리","1000원",R.drawable.img));
+            items.add(new Movie("국수사리","2000원",R.drawable.img));
+            items.add(new Movie("버섯사리 ","2000원",R.drawable.img));
+            items.add(new Movie("감자사리","2000원",R.drawable.img));
+            items.add(new Movie("공기밥","2000원",R.drawable.img));
+
+        }
+        if(i == "maknae"){
+            items.add(new Movie("광어","70,000원",R.drawable.img));
+            items.add(new Movie("우럭","70,000원",R.drawable.img));
+            items.add(new Movie("광어 (대)","65,000원",R.drawable.img));
+            items.add(new Movie("광어 (중)","40,000원",R.drawable.img));
+            items.add(new Movie("모둠 (대) ","55,000원",R.drawable.img));
+            items.add(new Movie("모둠 (중)","35,000원",R.drawable.img));
+
+        }
+        if(i == "monyeo"){
+            items.add(new Movie("마약김밥","3000원",R.drawable.img));
+            items.add(new Movie("비빔/물냉면","6000원",R.drawable.img));
+            items.add(new Movie("잔치국수","5000원",R.drawable.img));
+            items.add(new Movie("열무국수","6000원",R.drawable.img));
+            items.add(new Movie("열무냉면 ","6000원",R.drawable.img));
+            items.add(new Movie("콩국수","6000원",R.drawable.img));
+            items.add(new Movie("순대","7000원",R.drawable.img));
+            items.add(new Movie("머리고기","7000원",R.drawable.img));
+
+        }
+        if(i == "obok"){
+            items.add(new Movie("모듬해산물","45000원",R.drawable.img));
+            items.add(new Movie("광어+연어+단새우회","30000원",R.drawable.img));
+            items.add(new Movie("우니+관자+단새우","35000원",R.drawable.img));
+            items.add(new Movie("전복바지락술찜","28000원",R.drawable.img));
+
+        }
+        if(i == "ques"){
+            items.add(new Movie("닭강정 컵","3000/4000원",R.drawable.img));
+            items.add(new Movie("닭강정 1/3","7000원",R.drawable.img));
+            items.add(new Movie("닭강정 2/3","11000원",R.drawable.img));
+            items.add(new Movie("닭강정 1마리","14000원",R.drawable.img));
+            items.add(new Movie("닭강정 1마리 반","18000원",R.drawable.img));
+            items.add(new Movie("닭강정 2마리","22000원",R.drawable.img));
+
+        }
+        if(i == "uelock"){
+            items.add(new Movie("고추튀김 3/6","8000원/15000원",R.drawable.img));
+            items.add(new Movie("육전","19000원",R.drawable.img));
+            items.add(new Movie("모듬전 11가지","19000원",R.drawable.img));
+            items.add(new Movie("삼색전 (부추전/김치전/감자전)","12000원",R.drawable.img));
+            items.add(new Movie("해물파전","15000원",R.drawable.img));
+            items.add(new Movie("모듬+쫄면+고추튀김3개","32000원",R.drawable.img));
+            items.add(new Movie("육전 + 부추쫄면 +고추튀김3개","32000원",R.drawable.img));
+            items.add(new Movie("통새우전 + 부추쫄면 + 고추튀김3개","31000원",R.drawable.img));
+
+        }
+        if(i == "wangsung"){
+            items.add(new Movie("갈치조림(2인)","18,000원",R.drawable.img));
+            items.add(new Movie("자반구이","8,000원",R.drawable.img));
+            items.add(new Movie("조기구이","7,000원",R.drawable.img));
+            items.add(new Movie("김치찌개","6,000원",R.drawable.img));
+            items.add(new Movie("라면김치찌개 ","7,000원",R.drawable.img));
+            items.add(new Movie("소세지찌개","7,000원",R.drawable.img));
+            items.add(new Movie("된장찌개","6,000원",R.drawable.img));
+            items.add(new Movie("순두부찌개","6,000원",R.drawable.img));
+
+        }
+        if(i == "wonjonudecheesekimbop"){
+            items.add(new Movie("치즈참치김밥","2500원",R.drawable.img));
+            items.add(new Movie("잡채김밥","3000원",R.drawable.img));
+            items.add(new Movie("세트김밥","4000원",R.drawable.img));
+            items.add(new Movie("부산어묵 1개","500원",R.drawable.img));
+
+        }
+        if(i == "wonjosunheenae"){
+            items.add(new Movie("녹두 빈대떡","15000원",R.drawable.img));
+            items.add(new Movie("고기완자 ","3000원",R.drawable.img));
+            items.add(new Movie("새우 빈대떡","10000원",R.drawable.img));
+            items.add(new Movie("고기 빈대떡","10000원",R.drawable.img));
+            items.add(new Movie("반죽 포장 ","12000원",R.drawable.img));
+            items.add(new Movie("녹두빈대떡 + 고기완자 +육회 세트","23000원",R.drawable.img));
+            items.add(new Movie("녹두빈대떡2 + 고기완자 세트","13000원",R.drawable.img));
+
+        }
+
+    }
+
 
     @Override
     public int getCount() { //최초에 화면의 갯수를 설정함

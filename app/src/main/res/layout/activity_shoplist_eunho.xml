@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="top|center"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="20dp"
                 android:text="은호식당"
                 android:textSize="25dp"
                 android:textStyle="bold" />
@@ -45,19 +45,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="top|center"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="60dp"
                 android:text="70년 전부터 이어온 3대 꼬리곰탕 맛집"
                 android:textSize="16dp" />
 
-            <RatingBar
-                android:id="@+id/ratingBar1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|center"
-
-                android:isIndicator="true"
-                android:numStars="5"
-                android:rating="3.5" /> <!--사용자가 클릭하지 못하도록-->
 
         </FrameLayout>
 
