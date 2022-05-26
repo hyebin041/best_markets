@@ -118,12 +118,12 @@ public class SingleAdapter extends BaseAdapter {
 
         }
         if(i == "maknae"){
-            items.add(new Movie("광어","70,000원",R.drawable.img));
-            items.add(new Movie("우럭","70,000원",R.drawable.img));
-            items.add(new Movie("광어 (대)","65,000원",R.drawable.img));
-            items.add(new Movie("광어 (중)","40,000원",R.drawable.img));
-            items.add(new Movie("모둠 (대) ","55,000원",R.drawable.img));
-            items.add(new Movie("모둠 (중)","35,000원",R.drawable.img));
+            items.add(new Movie("광어","70,000원",R.drawable.maknae_flatfish));
+            items.add(new Movie("우럭","70,000원",R.drawable.maknae_ureok));
+            items.add(new Movie("광어 (대)","65,000원",R.drawable.maknae_flatbig));
+            items.add(new Movie("광어 (중)","40,000원",R.drawable.maknae_flatmed));
+            items.add(new Movie("모둠 (대) ","55,000원",R.drawable.maknae_modeumbig));
+            items.add(new Movie("모둠 (중)","35,000원",R.drawable.maknae_modeummed));
 
         }
         if(i == "monyeo"){
@@ -165,14 +165,14 @@ public class SingleAdapter extends BaseAdapter {
 
         }
         if(i == "wangsung"){
-            items.add(new Movie("갈치조림(2인)","18,000원",R.drawable.img));
-            items.add(new Movie("자반구이","8,000원",R.drawable.img));
-            items.add(new Movie("조기구이","7,000원",R.drawable.img));
-            items.add(new Movie("김치찌개","6,000원",R.drawable.img));
-            items.add(new Movie("라면김치찌개 ","7,000원",R.drawable.img));
-            items.add(new Movie("소세지찌개","7,000원",R.drawable.img));
-            items.add(new Movie("된장찌개","6,000원",R.drawable.img));
-            items.add(new Movie("순두부찌개","6,000원",R.drawable.img));
+            items.add(new Movie("갈치조림(2인)","18,000원",R.drawable.wangsung_fish));
+            items.add(new Movie("자반구이","8,000원",R.drawable.wangsung_zaban));
+            items.add(new Movie("조기구이","7,000원",R.drawable.wangsung_jogi));
+            items.add(new Movie("김치찌개","6,000원",R.drawable.wangsung_kimchi));
+            items.add(new Movie("라면김치찌개 ","7,000원",R.drawable.wangsung_ramen));
+            items.add(new Movie("소세지찌개","7,000원",R.drawable.wangsung_sausage));
+            items.add(new Movie("된장찌개","6,000원",R.drawable.wangsung_doenjang));
+            items.add(new Movie("순두부찌개","6,000원",R.drawable.wangsung_ramen)); //tofu가 안 보임.
 
         }
         if(i == "wonjonudecheesekimbop"){
