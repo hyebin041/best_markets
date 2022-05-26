@@ -54,24 +54,24 @@ public class SingleAdapter extends BaseAdapter {
 
         }
         if(i == "eunho"){
-            items.add(new Movie("꼬리토막","33,000원",R.drawable.img));
-            items.add(new Movie("꼬리곰탕","28,000원",R.drawable.img));
-            items.add(new Movie("도가니탕","19,000원",R.drawable.img));
-            items.add(new Movie("양지탕","15,000원",R.drawable.img));
-            items.add(new Movie("소머리국밥 ","12,000원",R.drawable.img));
-            items.add(new Movie("설렁탕","11,000원",R.drawable.img));
-            items.add(new Movie("꼬리찜","88,000원",R.drawable.img));
-            items.add(new Movie("모둠수육","75,000원",R.drawable.img));
+            items.add(new Movie("꼬리토막","33,000원",R.drawable.eunho_ggoritomak));
+            items.add(new Movie("꼬리곰탕","28,000원",R.drawable.eunho_ggorigomtang));
+            items.add(new Movie("도가니탕","19,000원",R.drawable.eunho_doganitang));
+            items.add(new Movie("양지탕","15,000원",R.drawable.eunho_yangjitang));
+            items.add(new Movie("소머리국밥 ","12,000원",R.drawable.eunho_somari));
+            items.add(new Movie("설렁탕","11,000원",R.drawable.eunho_srtang));
+            items.add(new Movie("꼬리찜","88,000원",R.drawable.eunho_ggorijjim));
+            items.add(new Movie("모둠수육","75,000원",R.drawable.eunho_modums));
 
         }
         //====================================================
         if(i == "gangganae"){
-            items.add(new Movie("무떡볶이","4500원",R.drawable.img));
-            items.add(new Movie("튀김1인분(4개)","4500원",R.drawable.img));
-            items.add(new Movie("튀김 모듬 (10개)","10000원",R.drawable.img));
-            items.add(new Movie("떡볶이 + 튀김","5000원",R.drawable.img));
-            items.add(new Movie("소떡소떡 ","3000원",R.drawable.img));
-            items.add(new Movie("순대꼬치","2000원",R.drawable.img));
+            items.add(new Movie("무떡볶이","4500원",R.drawable.gangganae_muduk));
+            items.add(new Movie("튀김1인분(4개)","4500원",R.drawable.gangganae_fried_1));
+            items.add(new Movie("튀김 모듬 (10개)","10000원",R.drawable.gangganae_fried_modum));
+            items.add(new Movie("떡볶이 + 튀김","5000원",R.drawable.gangganae_duk_fried));
+            items.add(new Movie("소떡소떡 ","3000원",R.drawable.gangganae_soduksoduk));
+            items.add(new Movie("순대꼬치","2000원",R.drawable.gangganae_sundea));
 
         }
         if(i == "gorocae"){
