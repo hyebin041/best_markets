@@ -97,14 +97,14 @@ public class SingleAdapter extends BaseAdapter {
 
         }
         if(i == "hongduggae"){
-            items.add(new Movie("손칼국수","4500원",R.drawable.img));
-            items.add(new Movie("손수제비","4500원",R.drawable.img));
-            items.add(new Movie("들깨손수제비","5500원",R.drawable.img));
-            items.add(new Movie("옛날손짜장","5000원",R.drawable.img));
-            items.add(new Movie("들깨손칼국수 ","5500원",R.drawable.img));
-            items.add(new Movie("여름/콩국수","8000원",R.drawable.img));
-            items.add(new Movie("냉국수","7000원",R.drawable.img));
-            items.add(new Movie("비빔국수","7000원",R.drawable.img));
+            items.add(new Movie("손칼국수","4500원",R.drawable.hongduggae_kal));
+            items.add(new Movie("손수제비","4500원",R.drawable.hongduggae_sugaebi));
+            items.add(new Movie("들깨손수제비","5500원",R.drawable.hongduggae_seedsu));
+            items.add(new Movie("옛날손짜장","5000원",R.drawable.hongduggae_jajang));
+            items.add(new Movie("들깨손칼국수 ","5500원",R.drawable.hongduggae_seedkal));
+            items.add(new Movie("여름/콩국수","8000원",R.drawable.hongduggae_coldbean));
+            items.add(new Movie("냉국수","7000원",R.drawable.hongduggae_coldnoodle));
+            items.add(new Movie("비빔국수","7000원",R.drawable.hongduggae_spicy));
 
         }
         if(i == "jinokhalmae"){
@@ -145,23 +145,23 @@ public class SingleAdapter extends BaseAdapter {
 
         }
         if(i == "ques"){
-            items.add(new Movie("닭강정 컵","3000/4000원",R.drawable.img));
-            items.add(new Movie("닭강정 1/3","7000원",R.drawable.img));
-            items.add(new Movie("닭강정 2/3","11000원",R.drawable.img));
-            items.add(new Movie("닭강정 1마리","14000원",R.drawable.img));
-            items.add(new Movie("닭강정 1마리 반","18000원",R.drawable.img));
-            items.add(new Movie("닭강정 2마리","22000원",R.drawable.img));
+            items.add(new Movie("닭강정 컵","3000/4000원",R.drawable.ques_cup));
+            items.add(new Movie("닭강정 1/3","7000원",R.drawable.ques_13));
+            items.add(new Movie("닭강정 2/3","11000원",R.drawable.ques_23));
+            items.add(new Movie("닭강정 1마리","14000원",R.drawable.ques_1));
+            items.add(new Movie("닭강정 1마리 반","18000원",R.drawable.ques_15));
+            items.add(new Movie("닭강정 2마리","22000원",R.drawable.ques_2));
 
         }
         if(i == "uelock"){
-            items.add(new Movie("고추튀김 3/6","8000원/15000원",R.drawable.img));
-            items.add(new Movie("육전","19000원",R.drawable.img));
-            items.add(new Movie("모듬전 11가지","19000원",R.drawable.img));
-            items.add(new Movie("삼색전 (부추전/김치전/감자전)","12000원",R.drawable.img));
-            items.add(new Movie("해물파전","15000원",R.drawable.img));
-            items.add(new Movie("모듬+쫄면+고추튀김3개","32000원",R.drawable.img));
-            items.add(new Movie("육전 + 부추쫄면 +고추튀김3개","32000원",R.drawable.img));
-            items.add(new Movie("통새우전 + 부추쫄면 + 고추튀김3개","31000원",R.drawable.img));
+            items.add(new Movie("고추튀김 3/6","8000원/15000원",R.drawable.uelock_fried));
+            items.add(new Movie("육전","19000원",R.drawable.uelock_beef));
+            items.add(new Movie("모듬전 11가지","19000원",R.drawable.uelock_pancake));
+            items.add(new Movie("삼색전 (부추전/김치전/감자전)","12000원",R.drawable.uelock_samseck));
+            items.add(new Movie("해물파전","15000원",R.drawable.uelock_seafood));
+            items.add(new Movie("모듬+쫄면+고추튀김3개","32000원",R.drawable.uelock_set1));
+            items.add(new Movie("육전 + 부추쫄면 +고추튀김3개","32000원",R.drawable.uelock_set2));
+            items.add(new Movie("통새우전 + 부추쫄면 + 고추튀김3개","31000원",R.drawable.uelock_set3));
 
         }
         if(i == "wangsung"){
