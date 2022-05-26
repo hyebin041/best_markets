@@ -108,13 +108,13 @@ public class SingleAdapter extends BaseAdapter {
 
         }
         if(i == "jinokhalmae"){
-            items.add(new Movie("닭한마리","25,000원",R.drawable.img));
-            items.add(new Movie("닭도리탕","30,000원",R.drawable.img));
-            items.add(new Movie("떡사리","1000원",R.drawable.img));
-            items.add(new Movie("국수사리","2000원",R.drawable.img));
-            items.add(new Movie("버섯사리 ","2000원",R.drawable.img));
-            items.add(new Movie("감자사리","2000원",R.drawable.img));
-            items.add(new Movie("공기밥","2000원",R.drawable.img));
+            items.add(new Movie("닭한마리","25,000원",R.drawable.jinkhalmae_c1));
+            items.add(new Movie("닭도리탕","30,000원",R.drawable.jinokhalmae_c2));
+            items.add(new Movie("떡사리","1000원",R.drawable.jinokhalmae_ricecake));
+            items.add(new Movie("국수사리","2000원",R.drawable.jinokhalmae_noodle));
+            items.add(new Movie("버섯사리 ","2000원",R.drawable.jinokhalmae_mushroom));
+            items.add(new Movie("감자사리","2000원",R.drawable.jinokhalmae_patoato));
+            items.add(new Movie("공기밥","2000원",R.drawable.jinokhalmae_rice));
 
         }
         if(i == "maknae"){
@@ -127,21 +127,21 @@ public class SingleAdapter extends BaseAdapter {
 
         }
         if(i == "monyeo"){
-            items.add(new Movie("마약김밥","3000원",R.drawable.img));
-            items.add(new Movie("비빔/물냉면","6000원",R.drawable.img));
-            items.add(new Movie("잔치국수","5000원",R.drawable.img));
-            items.add(new Movie("열무국수","6000원",R.drawable.img));
-            items.add(new Movie("열무냉면 ","6000원",R.drawable.img));
-            items.add(new Movie("콩국수","6000원",R.drawable.img));
-            items.add(new Movie("순대","7000원",R.drawable.img));
-            items.add(new Movie("머리고기","7000원",R.drawable.img));
+            items.add(new Movie("마약김밥","3000원",R.drawable.monyeo_gimbap));
+            items.add(new Movie("비빔/물냉면","6000원",R.drawable.monyeo_naengmyeon));
+            items.add(new Movie("잔치국수","5000원",R.drawable.monyeo_janchi));
+            items.add(new Movie("열무국수","6000원",R.drawable.monyeo_yeolmu_noodle));
+            items.add(new Movie("열무냉면 ","6000원",R.drawable.monyeo_yeolmu));
+            items.add(new Movie("콩국수","6000원",R.drawable.monyeo_bean));
+            items.add(new Movie("순대","7000원",R.drawable.monyeo_sundae));
+            items.add(new Movie("머리고기","7000원",R.drawable.monyeo_meori));
 
         }
         if(i == "obok"){
-            items.add(new Movie("모듬해산물","45000원",R.drawable.img));
-            items.add(new Movie("광어+연어+단새우회","30000원",R.drawable.img));
-            items.add(new Movie("우니+관자+단새우","35000원",R.drawable.img));
-            items.add(new Movie("전복바지락술찜","28000원",R.drawable.img));
+            items.add(new Movie("모듬해산물","45000원",R.drawable.obok_seafood));
+            items.add(new Movie("광어+연어+단새우회","30000원",R.drawable.obok_set1));
+            items.add(new Movie("우니+관자+단새우","35000원",R.drawable.obok_set2));
+            items.add(new Movie("전복바지락술찜","28000원",R.drawable.obok_steamed));
 
         }
         if(i == "ques"){
@@ -176,20 +176,20 @@ public class SingleAdapter extends BaseAdapter {
 
         }
         if(i == "wonjonudecheesekimbop"){
-            items.add(new Movie("치즈참치김밥","2500원",R.drawable.img));
-            items.add(new Movie("잡채김밥","3000원",R.drawable.img));
-            items.add(new Movie("세트김밥","4000원",R.drawable.img));
-            items.add(new Movie("부산어묵 1개","500원",R.drawable.img));
+            items.add(new Movie("치즈참치김밥","2500원",R.drawable.wonjonude_cheese));
+            items.add(new Movie("잡채김밥","3000원",R.drawable.wonjonude_japchae));
+            items.add(new Movie("세트김밥","4000원",R.drawable.wonjonude_set));
+            items.add(new Movie("부산어묵 1개","500원",R.drawable.wonjonude_fishcake));
 
         }
         if(i == "wonjosunheenae"){
-            items.add(new Movie("녹두 빈대떡","15000원",R.drawable.img));
-            items.add(new Movie("고기완자 ","3000원",R.drawable.img));
-            items.add(new Movie("새우 빈대떡","10000원",R.drawable.img));
-            items.add(new Movie("고기 빈대떡","10000원",R.drawable.img));
-            items.add(new Movie("반죽 포장 ","12000원",R.drawable.img));
-            items.add(new Movie("녹두빈대떡 + 고기완자 +육회 세트","23000원",R.drawable.img));
-            items.add(new Movie("녹두빈대떡2 + 고기완자 세트","13000원",R.drawable.img));
+            items.add(new Movie("녹두 빈대떡","15000원",R.drawable.wonjosunheenae_beans));
+            items.add(new Movie("고기완자 ","3000원",R.drawable.wonjosunheenae_meat));
+            items.add(new Movie("새우 빈대떡","10000원",R.drawable.wonjosunheenae_shrimp));
+            items.add(new Movie("고기 빈대떡","10000원",R.drawable.wonjosunheenae_meat_pancake));
+            items.add(new Movie("반죽 포장 ","12000원",R.drawable.wonjosunheenae_package));
+            items.add(new Movie("녹두빈대떡 + 고기완자 +육회 세트","23000원",R.drawable.wonjosunheenae_set2)); //set1이 안보임
+            items.add(new Movie("녹두빈대떡2 + 고기완자 세트","13000원",R.drawable.wonjosunheenae_set2));
 
         }
 
