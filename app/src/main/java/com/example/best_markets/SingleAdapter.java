@@ -33,24 +33,24 @@ public class SingleAdapter extends BaseAdapter {
 
     public SingleAdapter(String i) {
         if(i == "bu"){
-            items.add(new Movie("육회","17000원",R.drawable.img));
-            items.add(new Movie("육회낙지탕탕이","30000원",R.drawable.img));
-            items.add(new Movie("간.천엽","15000원",R.drawable.img));
-            items.add(new Movie("육회물회","30000원",R.drawable.img));
-            items.add(new Movie("육사시미","4000원",R.drawable.img));
-            items.add(new Movie("육회비빔밥","8000원",R.drawable.img));
-            items.add(new Movie("육회비빔밥(특)","12000원",R.drawable.img));
-            items.add(new Movie("산낙지탕탕이","15000원 ",R.drawable.img));
+            items.add(new Movie("육회","17000원",R.drawable.buchon_ukhea));
+            items.add(new Movie("육회낙지탕탕이","30000원",R.drawable.buchon_ukheanakji));
+            items.add(new Movie("간.천엽","15000원",R.drawable.buchon_gan));
+            items.add(new Movie("육회물회","30000원",R.drawable.buchon_mulhea));
+            items.add(new Movie("육사시미","4000원",R.drawable.buchon_uksasimi));
+            items.add(new Movie("육회비빔밥","8000원",R.drawable.buchon_bibimbop));
+            items.add(new Movie("육회비빔밥(특)","12000원",R.drawable.buchon_bibimbop));
+            items.add(new Movie("산낙지탕탕이","15000원 ",R.drawable.buchon_nakjitangtang));
         }
         if(i == "dac"){
-            items.add(new Movie("닭곰탕","9000원",R.drawable.img));
-            items.add(new Movie("고기백반","10000원",R.drawable.img));
-            items.add(new Movie("닭고기","9000원",R.drawable.img));
-            items.add(new Movie("통닭","20000원",R.drawable.img));
-            items.add(new Movie("소주","4000원",R.drawable.img));
-            items.add(new Movie("맥주","4000원",R.drawable.img));
-            items.add(new Movie("청하","5000원",R.drawable.img));
-            items.add(new Movie("백세주","7000원",R.drawable.img));
+            items.add(new Movie("닭곰탕","9000원",R.drawable.dac_dacgomtang));
+            items.add(new Movie("고기백반","10000원",R.drawable.dac_backban));
+            items.add(new Movie("닭고기","9000원",R.drawable.dac_dacgogi));
+            items.add(new Movie("통닭","20000원",R.drawable.dac_tongdac));
+            items.add(new Movie("소주","4000원",R.drawable.dac_soju));
+            items.add(new Movie("맥주","4000원",R.drawable.dac_mackju));
+            items.add(new Movie("청하","5000원",R.drawable.dac_chungha));
+            items.add(new Movie("백세주","7000원",R.drawable.dac_backsaju));
 
         }
         if(i == "eunho"){
