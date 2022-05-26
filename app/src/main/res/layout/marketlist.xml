@@ -113,7 +113,7 @@
                     android:layout_height="150dp"
                     android:layout_marginTop="10dp"
                     android:src="@mipmap/ic_launcher"
-                    android:text="왕성 식당"
+                    android:text="부촌 육회"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button

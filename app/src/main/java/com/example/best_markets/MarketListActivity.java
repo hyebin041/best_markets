@@ -54,7 +54,8 @@ public class MarketListActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), shoplist_wangsung.class);
+                //Intent intent = new Intent(getApplicationContext(), shoplist_wangsung.class);
+                Intent intent = new Intent(getApplicationContext(), shoplist_buchon.class);
                 startActivity(intent);
             }
         });
