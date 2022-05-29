@@ -75,25 +75,25 @@ public class SingleAdapter extends BaseAdapter {
 
         }
         if(i == "gorocae"){
-            items.add(new Movie("야채","1000원",R.drawable.img));
-            items.add(new Movie("단팥","700원",R.drawable.img));
-            items.add(new Movie("고구마카레","700원",R.drawable.img));
-            items.add(new Movie("감자","700원",R.drawable.img));
-            items.add(new Movie("참치 ","700원",R.drawable.img));
-            items.add(new Movie("찹쌀꽈배기 + 핫도그","1000원",R.drawable.img));
-            items.add(new Movie("옛날꽈배기+순찹쌀도너츠","500원 / 1000원",R.drawable.img));
-            items.add(new Movie("야채샐러드빵","2500원",R.drawable.img));
+            items.add(new Movie("야채","1000원",R.drawable.gorocae_yache));
+            items.add(new Movie("단팥","700원",R.drawable.gorocae_danpot));
+            items.add(new Movie("고구마카레","700원",R.drawable.gorocae_goguma));
+            items.add(new Movie("감자","700원",R.drawable.gorocae_gamja));
+            items.add(new Movie("참치 ","700원",R.drawable.gorocae_chamchi));
+            items.add(new Movie("찹쌀꽈배기 + 핫도그","1000원",R.drawable.gorocae_ggabeggi));
+            items.add(new Movie("옛날꽈배기+순찹쌀도너츠","500원 / 1000원",R.drawable.gorocae_ggabeggi));
+            items.add(new Movie("야채샐러드빵","2500원",R.drawable.gorocae_yachesal));
 
         }
         if(i == "heelockgalchi"){
-            items.add(new Movie("갈치조림","10,000원",R.drawable.img));
-            items.add(new Movie("고등어조림","10,000원",R.drawable.img));
-            items.add(new Movie("모듬생선구이","10,000원",R.drawable.img));
-            items.add(new Movie("고등어구이","9000원",R.drawable.img));
-            items.add(new Movie("코다리 양념구이","9000원",R.drawable.img));
-            items.add(new Movie("삼치구이","9000원",R.drawable.img));
-            items.add(new Movie("청국장","7000원",R.drawable.img));
-            items.add(new Movie("계란찜","2000원",R.drawable.img));
+            items.add(new Movie("갈치조림","10,000원",R.drawable.heelockgalchi_galchijorim));
+            items.add(new Movie("고등어조림","10,000원",R.drawable.heelockgalchi_galchijorim ));
+            items.add(new Movie("모듬생선구이","10,000원",R.drawable.heelockgalchi_guei));
+            items.add(new Movie("고등어구이","9000원",R.drawable.heelockgalchi_guei));
+            items.add(new Movie("코다리 양념구이","9000원",R.drawable.heelockgalchi_kodari));
+            items.add(new Movie("삼치구이","9000원",R.drawable.heelockgalchi_guei));
+            items.add(new Movie("청국장","7000원",R.drawable.heelockgalchi_chunggug));
+            items.add(new Movie("계란찜","2000원",R.drawable.heelockgalchi_gearanjjim));
 
         }
         if(i == "hongduggae"){
