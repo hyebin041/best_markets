@@ -118,7 +118,7 @@
                     android:layout_width="140dp"
                     android:layout_height="150dp"
                     android:layout_marginTop="10dp"
-                    android:src="@mipmap/noodle_soup"
+                    android:src="@drawable/hongduggae_kal"
                     android:text="홍두깨 칼국수"
                     tools:ignore="SpeakableTextPresentCheck" />
 
@@ -150,7 +150,7 @@
                     android:layout_height="150dp"
                     android:text="큐스 닭강정"
                     android:id="@+id/img2"
-                    android:src="@mipmap/chicken"
+                    android:src="@drawable/ques_1"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -180,7 +180,7 @@
                     android:layout_width="140dp"
                     android:layout_height="150dp"
                     android:text="우이락"
-                    android:src="@mipmap/wuerak"
+                    android:src="@drawable/uelock_pancake"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -210,7 +210,7 @@
                     android:layout_height="150dp"
                     android:id="@+id/img4"
                     android:text="망원고로케"
-                    android:src="@mipmap/croquette"/>
+                    android:src="@drawable/gorocae_danpot"/>
 
                 <Button
                     android:id="@+id/button4"
@@ -237,7 +237,7 @@
                     android:layout_width="140dp"
                     android:layout_height="150dp"
                     android:text="오복수산시장"
-                    android:src="@mipmap/fish"
+                    android:src="@drawable/obok_seafood"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button

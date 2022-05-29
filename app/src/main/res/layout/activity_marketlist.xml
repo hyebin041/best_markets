@@ -1,9 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Marketlist_Activity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Marketlist_Activity"
+android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_marginTop="25dp"
+    android:id="@+id/shop_list">
+
+    <FrameLayout
+        android:layout_width="410dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shoplist_custom_intro_textview2"
+        android:elevation="10dp">
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:text="시장 리스트"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+    </FrameLayout>
+
+
+</FrameLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btn1"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/textview_teduri"
+                android:src="@mipmap/nam_market_view_first"/>
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="200dp"
+                android:layout_height="140dp"
+                android:text="    남대문 시장\n       시장소개"
+                android:textSize="20dp"
+                android:fontFamily="@values/im_hyemin_bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btn2"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/textview_teduri"
+                android:src="@mipmap/gwang_market_view_third"/>
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="200dp"
+                android:layout_height="140dp"
+                android:text="    광장시장\n       시장소개"
+                android:textSize="20dp"
+                android:fontFamily="@values/im_hyemin_bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btn3"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/textview_teduri"
+                android:src="@mipmap/mang_market_view_first"/>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="200dp"
+                android:layout_height="140dp"
+                android:text="    망원시장\n       시장소개"
+                android:textSize="20dp"
+                android:fontFamily="@values/im_hyemin_bold"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

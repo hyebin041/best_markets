@@ -112,7 +112,7 @@
                     android:layout_width="140dp"
                     android:layout_height="150dp"
                     android:layout_marginTop="10dp"
-                    android:src="@mipmap/ic_launcher"
+                    android:src="@drawable/wangsung_zaban"
                     android:text="왕성 식당"
                     tools:ignore="SpeakableTextPresentCheck" />
 
@@ -142,7 +142,7 @@
                     android:layout_height="150dp"
                     android:text="닭진미"
                     android:id="@+id/img2"
-                    android:src="@mipmap/ic_launcher"
+                    android:src="@drawable/dac_dacgomtang"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -170,7 +170,7 @@
                     android:layout_width="140dp"
                     android:layout_height="150dp"
                     android:text="은호 식당"
-                    android:src="@mipmap/ic_launcher"
+                    android:src="@drawable/eunho_doganitang"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -198,7 +198,7 @@
                     android:layout_height="150dp"
                     android:id="@+id/img4"
                     android:text="희락 갈치"
-                    android:src="@mipmap/ic_launcher"/>
+                    android:src="@drawable/heelockgalchi_galchijorim"/>
 
                 <Button
                     android:id="@+id/button4"
@@ -224,7 +224,7 @@
                     android:layout_width="140dp"
                     android:layout_height="150dp"
                     android:text="막내 횟집"
-                    android:src="@mipmap/ic_launcher"
+                    android:src="@drawable/maknae_flatfish"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button

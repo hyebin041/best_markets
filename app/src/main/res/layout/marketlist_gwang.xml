@@ -117,7 +117,7 @@
                     android:layout_width="140dp"
                     android:layout_height="150dp"
                     android:layout_marginTop="10dp"
-                    android:src="@mipmap/noodle_soup"
+                    android:src="@drawable/gangganae_duk_fried"
                     android:text="강가네 떡볶이"
                     tools:ignore="SpeakableTextPresentCheck" />
 
@@ -149,7 +149,7 @@
                     android:layout_height="150dp"
                     android:text="원조 순희네 빈대떡"
                     android:id="@+id/img2"
-                    android:src="@mipmap/chicken"
+                    android:src="@drawable/wonjosunheenae_beans"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -179,7 +179,7 @@
                     android:layout_width="140dp"
                     android:layout_height="150dp"
                     android:text="원조누드치즈김밥"
-                    android:src="@mipmap/wuerak"
+                    android:src="@drawable/wonjonude_cheese"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -209,7 +209,7 @@
                     android:layout_height="150dp"
                     android:id="@+id/img4"
                     android:text="진옥화할매원조닭한마리"
-                    android:src="@mipmap/croquette"/>
+                    android:src="@drawable/jinkhalmae_c1"/>
 
                 <Button
                     android:id="@+id/button4"
@@ -236,7 +236,7 @@
                     android:layout_width="140dp"
                     android:layout_height="150dp"
                     android:text="부촌육회 본점"
-                    android:src="@mipmap/fish"
+                    android:src="@drawable/buchon_bibimbop"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -266,7 +266,7 @@
                     android:layout_width="140dp"
                     android:layout_height="150dp"
                     android:text="모녀꼬마마약김밥"
-                    android:src="@mipmap/fish"
+                    android:src="@drawable/monyeo_gimbap"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
