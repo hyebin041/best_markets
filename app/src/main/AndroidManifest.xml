@@ -88,7 +88,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
+        <!--<activity
             android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
@@ -97,10 +97,16 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>-->
         <activity
             android:name=".namdaemun"
-            android:exported="false" />
+            android:exported="true" />
+        <activity
+            android:name=".mangwon"
+            android:exported="true" />
+        <activity
+            android:name=".gwangjang"
+            android:exported="true" />
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
@@ -109,6 +115,10 @@
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
+
+        <activity
+            android:name=".MarketList"
+            android:exported="true" />
     </application>
 
 </manifest>

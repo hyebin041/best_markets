@@ -1,5 +1,5 @@
 package com.example.best_markets;
-
+/*
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import android.app.Activity;
@@ -21,7 +21,7 @@ public class SplashActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.);
 
         constraintLayout=findViewById(R.id.constraintLayout);
         market_jjang1 = findViewById(R.id.market_jjang1);
@@ -49,4 +49,4 @@ public class SplashActivity extends Activity {
         market_jjang1.startAnimation(anim_FadeIn);
         market_jjang2.startAnimation(anim_ball);
     }
-}
+}*/

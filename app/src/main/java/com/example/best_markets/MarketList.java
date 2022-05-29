@@ -5,12 +5,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MarketList extends AppCompatActivity {
-    Button btn1, btn2, btn3, nambtn, gwangbtn, mangbtn;
+    Button nambtn, gwangbtn, mangbtn;
+    ImageButton btn1, btn2, btn3;
 
 
     @SuppressLint("WrongViewCast")
@@ -31,7 +33,7 @@ public class MarketList extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MarketGwang.class);
+                Intent intent = new Intent(getApplicationContext(), gwangjang.class);
                 startActivity(intent);
             }
         });
@@ -45,6 +47,29 @@ public class MarketList extends AppCompatActivity {
         });
 
         btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), mangwon.class);
+            }
+        });
+
+        nambtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), gwangjang.class);
+                startActivity(intent);
+            }
+        });
+
+        gwangbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), namdaemun.class);
+                startActivity(intent);
+            }
+        });
+
+        mangbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), mangwon.class);

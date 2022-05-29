@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".gwangjang">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -74,7 +75,7 @@
             android:fontFamily="@values/im_hyemin_bold"
             android:textSize="23dp"
             android:textAlignment="center"
-            android:text="망원시장 \n시장소개:#야시장#복잡함" />
+            android:text="광장시장 \n시장소개:조선시대 배오개시장 명맥을 이은 전통시장" />
 
     </LinearLayout>
     <LinearLayout
@@ -90,7 +91,7 @@
             android:layout_gravity="center"
             android:textSize="25dp"
             android:fontFamily="@values/im_hyemin_bold"
-            android:text="망원시장 가게 목록" />
+            android:text="광장시장 가게 목록" />
     </LinearLayout>
 
     <ScrollView
@@ -117,7 +118,7 @@
                     android:layout_height="150dp"
                     android:layout_marginTop="10dp"
                     android:src="@mipmap/noodle_soup"
-                    android:text="홍두깨 칼국수"
+                    android:text="강가네 떡볶이"
                     tools:ignore="SpeakableTextPresentCheck" />
 
                 <Button
@@ -130,7 +131,7 @@
                     android:layout_gravity="center"
                     android:backgroundTint="#CCE1FF"
                     android:fontFamily="@values/im_hyemin_bold"
-                    android:text="1.홍두깨 칼국수\n"
+                    android:text="1.강가네 떡볶이\n"
                     android:textSize="20dp" />
 
             </LinearLayout>
@@ -146,7 +147,7 @@
                 <ImageView
                     android:layout_width="140dp"
                     android:layout_height="150dp"
-                    android:text="큐스 닭강정"
+                    android:text="원조 순희네 빈대떡"
                     android:id="@+id/img2"
                     android:src="@mipmap/chicken"
                     tools:ignore="SpeakableTextPresentCheck" />
@@ -161,7 +162,7 @@
                     android:layout_gravity="center"
                     android:backgroundTint="#CCE1FF"
                     android:fontFamily="@values/im_hyemin_bold"
-                    android:text="2.큐스 닭강정"
+                    android:text="2.원조 순희네 빈대떡"
                     android:textSize="20dp" />
             </LinearLayout>
 
@@ -177,7 +178,7 @@
                     android:id="@+id/img3"
                     android:layout_width="140dp"
                     android:layout_height="150dp"
-                    android:text="우이락"
+                    android:text="원조누드치즈김밥"
                     android:src="@mipmap/wuerak"
                     tools:ignore="SpeakableTextPresentCheck" />
 
@@ -191,7 +192,7 @@
                     android:layout_gravity="center"
                     android:backgroundTint="#CCE1FF"
                     android:fontFamily="@values/im_hyemin_bold"
-                    android:text="3.우이락"
+                    android:text="3.원조누드치즈김밥"
                     android:textSize="20dp" />
 
             </LinearLayout>
@@ -207,7 +208,7 @@
                     android:layout_width="140dp"
                     android:layout_height="150dp"
                     android:id="@+id/img4"
-                    android:text="망원고로케"
+                    android:text="진옥화할매원조닭한마리"
                     android:src="@mipmap/croquette"/>
 
                 <Button
@@ -219,7 +220,7 @@
                     android:layout_gravity="center"
                     android:backgroundTint="#CCE1FF"
                     android:fontFamily="@values/im_hyemin_bold"
-                    android:text="4.망원 고로케"
+                    android:text="4.진옥화할매원조닭한마리"
                     android:textSize="20dp" />
             </LinearLayout>
             <LinearLayout
@@ -234,7 +235,7 @@
                     android:id="@+id/img5"
                     android:layout_width="140dp"
                     android:layout_height="150dp"
-                    android:text="오복수산시장"
+                    android:text="부촌육회 본점"
                     android:src="@mipmap/fish"
                     tools:ignore="SpeakableTextPresentCheck" />
 
@@ -248,7 +249,37 @@
                     android:layout_gravity="center"
                     android:backgroundTint="#CCE1FF"
                     android:fontFamily="@values/im_hyemin_bold"
-                    android:text="5.오복 수산시장"
+                    android:text="5.부촌육회 본점"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                >
+                <!--android:background="@drawable/store_border"-->
+
+                <ImageView
+                    android:id="@+id/img6"
+                    android:layout_width="140dp"
+                    android:layout_height="150dp"
+                    android:text="모녀꼬마마약김밥"
+                    android:src="@mipmap/fish"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="260dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#CCE1FF"
+                    android:fontFamily="@values/im_hyemin_bold"
+                    android:text="6.모녀꼬마마약김밥"
                     android:textSize="20dp" />
 
             </LinearLayout>

@@ -21,7 +21,7 @@ public class Click extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MarketGwang.class);
+                Intent intent = new Intent(getApplicationContext(), gwangjang.class);
                 startActivity(intent);
             }
         });

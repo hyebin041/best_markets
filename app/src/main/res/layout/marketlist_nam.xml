@@ -26,18 +26,18 @@
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 android:layout_gravity="center"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/nam_market_view_first" />
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
-                android:src="@mipmap/ic_launcher"/>
+                android:src="@mipmap/nam_market_view_second"/>
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 android:layout_gravity="center"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/nam_market_view_third" />
 
         </ViewFlipper>
         <LinearLayout
