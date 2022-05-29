@@ -32,6 +32,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Best_markets">
         <activity
+            android:name=".Marketlist_Activity"
+            android:exported="true" />
+        <activity
             android:name=".shoplist_gorocae"
             android:exported="false" />
         <activity
@@ -88,7 +91,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity
+        <!--
+<activity
             android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
@@ -97,7 +101,8 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>-->
+        </activity>
+        -->
         <activity
             android:name=".namdaemun"
             android:exported="true" />
