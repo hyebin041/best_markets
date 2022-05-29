@@ -12,9 +12,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginBottom="5dp"
-        android:background="@drawable/border"
         android:padding="10dip"
-        >
+        > <!--android:background="@drawable/border"-->
 
         <ViewFlipper
             android:id="@+id/image_slide"
@@ -26,18 +25,18 @@
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 android:layout_gravity="center"
-                android:src="@mipmap/market_view_first" />
+                android:src="@mipmap/gwang_market_view_first" />
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
-                android:src="@mipmap/market_view_second"/>
+                android:src="@mipmap/gwang_market_view_second"/>
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 android:layout_gravity="center"
-                android:src="@mipmap/market_view_third" />
+                android:src="@mipmap/gwang_market_view_third" />
 
         </ViewFlipper>
         <LinearLayout
@@ -81,7 +80,8 @@
     <LinearLayout
         android:layout_width="410dp"
         android:layout_height="50dp"
-        android:background="@drawable/edge">
+        >
+        <!--android:background="@drawable/edge"-->
 
         <TextView
             android:layout_width="match_parent"
@@ -102,7 +102,8 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:layout_marginLeft="5dp"
-            android:background="@drawable/store_border">
+            >
+            <!--android:background="@drawable/store_border"-->
 
             <LinearLayout
                 android:layout_width="400dp"
@@ -139,7 +140,8 @@
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 android:orientation="horizontal"
-                android:background="@drawable/store_border">
+                >
+                <!--android:background="@drawable/store_border"-->
 
                 <ImageView
                     android:layout_width="140dp"
@@ -168,7 +170,8 @@
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 android:orientation="horizontal"
-                android:background="@drawable/store_border">
+                >
+                <!--android:background="@drawable/store_border"-->
 
                 <ImageView
                     android:id="@+id/img3"
@@ -197,7 +200,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:orientation="horizontal"
-                android:background="@drawable/store_border">
+                >
+                <!--android:background="@drawable/store_border"-->
 
                 <ImageView
                     android:layout_width="140dp"
@@ -223,7 +227,8 @@
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 android:orientation="horizontal"
-                android:background="@drawable/store_border">
+                >
+                <!--android:background="@drawable/store_border"-->
 
                 <ImageView
                     android:id="@+id/img5"
